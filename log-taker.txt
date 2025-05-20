@@ -5446,3 +5446,15 @@
 5/20/2025 | 8:17:02 AM | INFO | Trying to activate mining on-chain for wallet: 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
 5/20/2025 | 8:17:03 AM | ERROR | Activate Mining Error: {"code":"CALL_EXCEPTION","action":"estimateGas","data":null,"reason":null,"transaction":{"to":"0xB3eFE5105b835E5Dd9D206445Dbd66DF24b912AB","data":"0x02fb0c5e","from":"0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c"},"invocation":null,"revert":null,"shortMessage":"missing revert data","info":{"error":{"code":-32603,"message":"execution fatal: Module(ModuleError { index: 40, error: [5, 0, 0, 0], message: None })"},"payload":{"method":"eth_estimateGas","params":[{"nonce":"0x18","from":"0x93dd1dbd41b895d978fb0b7e4522b45d4c45549c","to":"0xb3efe5105b835e5dd9d206445dbd66df24b912ab","data":"0x02fb0c5e"}],"id":3,"jsonrpc":"2.0"}}}
 5/20/2025 | 8:17:03 AM | ERROR | Wallet already start mine today or wallet dont have taker balance 
+5/20/2025 | 12:23:23 PM | WARN |   === Sever is down bot might be slow - Just be patient ===
+5/20/2025 | 12:23:23 PM | INFO | Start process for wallet 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
+5/20/2025 | 12:23:24 PM | INFO | Trying To Login for wallet: 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
+5/20/2025 | 12:23:25 PM | INFO | Login successful... 
+5/20/2025 | 12:23:25 PM | INFO | Trying to check user info... 
+5/20/2025 | 12:23:26 PM | INFO | User ID: 103206772 | Twitter: @wzuraaa | Total Points: 2040000 
+5/20/2025 | 12:23:26 PM | INFO | Trying to check user miner status... 
+5/20/2025 | 12:23:26 PM | INFO | Last mining time: 3/10/2025, 12:21:21 PM
+5/20/2025 | 12:23:26 PM | INFO | Trying to start Mining for wallet: 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
+5/20/2025 | 12:23:27 PM | INFO | Mine response: {"code":500,"msg":"startMining Fail, startMining has not reached refresh time","data":null}
+5/20/2025 | 12:23:27 PM | INFO | Trying to activate mining on-chain for wallet: 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
+5/20/2025 | 12:23:38 PM | INFO | Activate Mining Hash: https://explorer.taker.xyz/tx/0x4b254bd22df2383fb470456cccd031d56321063c5c2d44a8e8d35bd5cf66c86a 
