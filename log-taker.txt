@@ -5512,3 +5512,16 @@
 5/21/2025 | 12:22:42 PM | INFO | Trying to check user miner status... 
 5/21/2025 | 12:22:43 PM | INFO | Last mining time: 5/20/2025, 12:23:33 PM
 5/21/2025 | 12:22:43 PM | WARN | Mining already started, next mining time is: 5/21/2025, 12:23:33 PM
+5/21/2025 | 4:14:51 PM | WARN |   === Sever is down bot might be slow - Just be patient ===
+5/21/2025 | 4:14:51 PM | INFO | Start process for wallet 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
+5/21/2025 | 4:14:51 PM | INFO | Trying To Login for wallet: 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
+5/21/2025 | 4:14:52 PM | INFO | Login successful... 
+5/21/2025 | 4:14:52 PM | INFO | Trying to check user info... 
+5/21/2025 | 4:14:53 PM | INFO | User ID: 103206772 | Twitter: @wzuraaa | Total Points: 2040000 
+5/21/2025 | 4:14:53 PM | INFO | Trying to check user miner status... 
+5/21/2025 | 4:14:53 PM | INFO | Last mining time: 5/20/2025, 12:23:33 PM
+5/21/2025 | 4:14:53 PM | INFO | Trying to start Mining for wallet: 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
+5/21/2025 | 4:14:54 PM | INFO | Mine response: {"code":200,"msg":"SUCCESS","data":"ok"}
+5/21/2025 | 4:14:54 PM | INFO | Trying to activate mining on-chain for wallet: 0x93DD1dbd41B895D978Fb0b7E4522B45d4C45549c 
+5/21/2025 | 4:14:57 PM | ERROR | Activate Mining Error: {"code":"INSUFFICIENT_FUNDS","transaction":"0x02f86d8204655b822710831eab9082ed9594b3efe5105b835e5dd9d206445dbd66df24b912ab808402fb0c5ec001a0b1ae428c5f4f113bc1ad86222d94d1bf2ef7981a4969bfaca70766f90b9d9c2da0569d3afe01bfa84122ddf9cf87633104f72ff101e71f2864b10a8b4764246ae5","info":{"error":{"code":-32603,"message":"insufficient funds for gas * price + value"}},"shortMessage":"insufficient funds for intrinsic transaction cost"}
+5/21/2025 | 4:14:57 PM | ERROR | Wallet already start mine today or wallet dont have taker balance 
